@@ -71,6 +71,11 @@ body {
   font-size: 20px;
 }
 
+.Line-notify {
+  display: flex;
+  justify-content: left;
+}
+
 .card {
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.26);
 }
@@ -106,7 +111,7 @@ body {
 }
 
 .Layout-table {
-  margin: 0.5rem 0rem 0.5rem 3rem;
+  margin: 0.5rem 0rem 2rem 3rem;
 }
 
 .Layout-feedback {
@@ -125,14 +130,13 @@ body {
 input,
 select {
   border: none;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid rgb(170, 168, 168);
   line-height: 1rem;
 }
 
 .table {
   text-align: center;
   table-layout: auto;
-
   border-collapse: collapse;
 }
 
@@ -144,8 +148,31 @@ tbody {
   background-color: white;
   text-align: left;
 }
+
+.alert-YES {
+  background: var(--violet);
+  color: var(--gray-darker);
+}
+
+.alert-NO {
+  background: #a10404;
+  color: var(---white-gray);
+}
 /* ---------------------------------------------------------------- */
-/* .w3-card-4 {
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-last {
+  width: 100px;
+  height: 40px;
+  background: linear-gradient(180deg, #d15fee 0%, #9a32cd 100%);
+  border-radius: 10px;
+}
+
+/* ------------------------------------------------------------------- */
+.w3-card-4 {
   margin-bottom: 5rem;
 }
 
@@ -185,4 +212,4 @@ tbody {
 
 .w3-input {
   border-radius: 0.3em;
-} */
+}
